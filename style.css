@@ -1,0 +1,48 @@
+div{
+    color:darkgreen;
+    font-size:smaller;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:relative;
+    top:0px;
+    left:240px;
+}
+p > a:visited, p > a:link{
+    color:black;
+    font-size: larger;
+}
+p > a:active{
+    color:greenyellow;
+    font-size: larger;
+}
+.notimportant{
+    color:goldenrod;
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#blank{
+    height:5000px;
+}
+div ~ h1{
+    background-color: black;
+    color:white;
+}
+div + h1{
+    font-style: italic;
+    font-size: larger;
+    color:yellow;
+}
+.slide{
+    width:200px;
+    padding:20px;
+    border-radius: 2em/8em;
+    height: 80px;
+    background-color:bisque;
+    position:fixed;
+    top:70%;
+    left:-15%;
+    transition: 2s;
+}
+.slide:hover{
+    left:-1%;
+}
