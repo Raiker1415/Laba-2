@@ -1,6 +1,6 @@
 div{
-    color:darkgreen;
-    font-size:smaller;
+    color:black;
+    font-size:23px;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position:relative;
@@ -25,13 +25,13 @@ p > a:active{
     height:5000px;
 }
 div ~ h1{
-    background-color: black;
+    background-color: gray;
     color:white;
 }
 div + h1{
     font-style: italic;
     font-size: larger;
-    color:yellow;
+    color:white;
 }
 .slide{
     width:200px;
