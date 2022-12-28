@@ -16,8 +16,9 @@ p > a:active{
     font-size: larger;
 }
 .notimportant{
-    color:goldenrod;
-    background-color: grey;
+    color:gold;
+    background-color: darkred;
+    right:120px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #blank{
